@@ -1,6 +1,7 @@
 import CommentInput from './CommentInput';
 import CommentList from './CommentList';
 import React from 'react';
+import { Link } from 'react-router';
 
 const CommentContainer = props => {
   if (props.currentUser) {
